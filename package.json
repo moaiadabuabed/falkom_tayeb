@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.33.0",
+    "multer": "^2.2.0",
+    "oracledb": "^7.0.1",
+    "react-router-dom": "^7.18.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.2",
+    "autoprefixer": "^10.5.4",
+    "jest": "^30.4.2",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3"
+  },
+  "name": "falkom_tayeb_proj",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd frontend && npm run start-frontend",
+    "backend": "cd backend && node server.js"
+  }
+}
